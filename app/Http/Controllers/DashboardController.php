@@ -6,12 +6,12 @@ use Illuminate\Support\Facades\Route;
 
 class DashboardController extends Controller
 {
-    public function index(string $id)
+    public function index()
     {
-        $viewData = [
-            'id' => $id
-        ];
+        // $viewData = [
+            // 'id' => $id
+        // ];
 
-        return view('beranda', $viewData);
+        return view('dashboard');
     }
 }
