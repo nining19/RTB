@@ -36,5 +36,30 @@
   </div>
 </div>
 
+<!-- section 3 -->
+<div class="container-fluid p-5" id="section3">
+  <div class="row mb-5">
+    <div class="col-md-12 text-center">
+      <h2 class="text-light">Paling Populer</h2>
+    </div>
+  </div>
+      <div class="container p-4 bg-light">
+  <div class="row">
+    <div class="col-md-4 p-5">
+      <img src="{{asset('images/banten1.png')}}" class="img-fluid" alt="Gambar 1">
+      <p class="text-center mt-4 fs-4 text-2">Kwangen melambangkan Ongkara atau aksara suci 'Om', yang merupakan manifestasi Tuhan dalam kehidupan.</p>
+    </div>
+    <div class="col-md-4 p-5">
+      <img src="{{asset('images/banten2.png')}}" class="img-fluid" alt="Gambar 2">
+      <p class="text-center mt-4 fs-4 text-2">Canang Sari secara harfiah bermakna sebagai persembahan yang indah dengan tujuan atau maksud yang mendalam.</p>
+    </div>
+    <div class="col-md-4 p-5">
+      <img src="{{asset('images/banten3.png')}}" class="img-fluid" alt="Gambar 3">
+      <p class="text-center mt-4 fs-4 text-2">daksina merupakan sesajen yang dibuat untuk tujuan kesaksian spiritual. Daksina disebut sebagai lambang Hyang Guru (Dewa Siwa)</p>
+    </div>
+    </div>
+  </div>
+</div>
+
 @endsection
 
