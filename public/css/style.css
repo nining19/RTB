@@ -105,3 +105,213 @@ body{
 #section3{
   background-color: #136625;
 }
+
+body {
+  background-color: gainsboro;
+  margin: 0;
+  padding: 0;
+}
+
+
+.allura-regular {
+  font-family: "Allura", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.container-fluid[style*="sawah.jpg"] {
+  position: relative;
+  padding: 4rem 0;
+  background-blend-mode: overlay;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.container-fluid[style*="sawah.jpg"] h2 {
+  color: #136625 !important;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 0.5rem auto;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.btn-danger.rounded-circle {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger.rounded-circle:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.btn-success {
+  background-color: #136625;
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.btn-success:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/* Kumpulan Doa Section Refinements */
+.bg-success {
+  background-color: #136625 !important;
+  padding: 3rem 0;
+}
+
+.card .btn-success.rounded-pill {
+  background-color: #136625;
+  border: none;
+  width: 100%;
+  border-radius: 25px !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  padding: 0.75rem;
+}
+
+.text-white {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  color: #fff !important;
+}
+
+.card h5.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+/* Footer Refinements */
+.container-fluid .row.py-4 {
+  padding: 3rem 0;
+}
+
+.img-fluid[alt*="Logo"] {
+  max-width: 120px;
+  margin-bottom: 1rem;
+}
+
+h3.text-success {
+  font-family: "Allura", cursive;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.text-muted {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h4.text-success {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* Button More Styles */
+.btn-dark {
+  background-color: #000;
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 0.9rem;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn-dark:hover {
+  opacity: 0.9;
+}
+
+/* Copyright Section */
+.row.bg-dark {
+  background-color: #000 !important;
+  padding: 1rem 0;
+}
+
+.row.bg-dark p {
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* Social Media Section */
+.social-media {
+  margin-top: 15px;
+}
+
+.social-media li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.social-media .icon {
+  font-size: 1.5rem;
+  color: #000;
+  margin-right: 10px;
+}
+
+.social-media .text {
+  font-size: 1rem;
+  color: #000;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 2rem 1rem;
+  }
+  
+  .card {
+    margin-bottom: 1.5rem;
+  }
+  
+  h2, .text-white {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  h3.text-success {
+    font-size: 2rem;
+  }
+  
+  .img-fluid[alt*="Logo"] {
+    max-width: 100px;
+  }
+}
