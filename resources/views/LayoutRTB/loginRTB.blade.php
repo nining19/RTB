@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
     <title>Login - Road to Bhakti</title>
     
     <style>
@@ -45,7 +45,7 @@
             }
 
         h1 {
-            font-family: 'Dancing Script', cursive;
+            font-family: 'Allura', cursive;
             font-size: 3.5rem;
             color: #00611c;
             margin-bottom: 10px;
@@ -53,7 +53,6 @@
                 0 0 5px #c7fcd7, 
                 0 0 10px #72be89, 
                 0 0 15px #74b385;
-
             }
 
         h2 {

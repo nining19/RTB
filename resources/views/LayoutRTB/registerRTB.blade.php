@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register - Road to Bhakti</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -44,7 +44,7 @@
             }
 
         h1 {
-            font-family: 'Dancing Script', cursive;
+            font-family: 'Allura', cursive;
             font-size: 3.5rem;
             color: #00611c;
             margin-bottom: 10px;
