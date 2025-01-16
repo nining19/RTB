@@ -1,5 +1,5 @@
 @extends('LayoutRTB.RTB')
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 @section('content')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <!-- section 1-->
@@ -26,7 +26,7 @@
        </div>
        <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title" id="text-1">Road to Bhakti</h5>
+            <h5 class="card-text" id="text-1">Road to Bhakti</h5>
             <p class="card-text fs-4 text-justify">
             Proyek Road to Bhakti bertujuan untuk mengembangkan sistem yang menyediakan fitur tutorial pembuatan banten serta katalog doa persembahyangan dan doa sehari-hari, untuk membantu serta mendukung masyarakat umat Agama Hindu untuk memahami dan melestarikan budaya sekaligus memperkuat keterhubungan umat dengan Tuhannya, sebagai bentuk implementasi dari Tri Hitakarana, yaitu "Parahyangan".
           </p>
@@ -163,16 +163,16 @@
 
 <!-- section 6 -->
 <div class="container-fluid">
-  <div class="row py-4 bg-white">
+  <div class="row py-5 bg-white">
     <div class="col-md-4 text-center">
-      <img src="{{ asset('images/LogoRTB.png') }}" alt="Road To Bhakti Logo" class="img-fluid" style="max-width: 150px;">
+      <img src="{{ asset('images/logoRTBhijau.png') }}" alt="Road To Bhakti Logo" class="img-fluid" style="max-width: 200px;">
     </div>
     <div class="col-md-4 text-center">
-      <h3 class="text-success" style="font-family: 'Script MT', cursive;">Road To Bhakti</h3>
-      <p class="text-muted">Terhubung setiap hari<br>dan setiap waktu</p>
+      <h3 class="text-success" id="text-1">Road to Bhakti</h3>
+      <p class="text">Terhubung setiap hari<br>dan setiap waktu</p>
     </div>
     <div class="col-md-4 text-center">
-      <h4 class="text-success">Berhubungan<br>Dengan Kami</h4>
+      <h4 class="text-success fw-bold">Berhubungan Dengan Kami</h4>
       <ul class="social-media list-unstyled text-center mt-3">
         <li>
           <span class="icon"><i class="fa-brands fa-instagram"></i></span>

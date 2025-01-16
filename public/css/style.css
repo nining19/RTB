@@ -9,6 +9,7 @@ body{
     font-weight: 400;
     font-style: normal;
   }  
+
 .navbar {
     background: rgba(0, 0, 0, 0.521); /* Transparent black */
     transition: background-color 0.3s;
@@ -106,30 +107,16 @@ body{
   background-color: #136625;
 }
 
-body {
-  background-color: gainsboro;
-  margin: 0;
-  padding: 0;
-}
-
-
-.allura-regular {
-  font-family: "Allura", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
 .container-fluid[style*="sawah.jpg"] {
   position: relative;
   padding: 4rem 0;
   background-blend-mode: overlay;
-  background-color: rgba(255, 255, 255, 0.9) !important;
+  background-color: rgba(255, 255, 255, 0.56) !important;
 }
 
 .container-fluid[style*="sawah.jpg"] h2 {
-  color: #136625 !important;
-  font-size: 2rem;
+  color: #093813 !important;
+  font-size: 3rem;
   margin-bottom: 2.5rem;
   text-align: center;
 }
@@ -159,7 +146,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  background-color: #dc3545;
+  background-color: #3538dc;
   border: none;
 }
 
@@ -170,11 +157,11 @@ body {
 }
 
 .btn-success {
-  background-color: #136625;
+  background-color: #121211;
   border: none;
   padding: 0.5rem 2rem;
   font-size: 0.9rem;
-  color: #fff;
+  color: #fff6f6;
 }
 
 .btn-success:hover {
@@ -185,12 +172,12 @@ body {
 
 /* Kumpulan Doa Section Refinements */
 .bg-success {
-  background-color: #136625 !important;
+  background-color: #175e28 !important;
   padding: 3rem 0;
 }
 
 .card .btn-success.rounded-pill {
-  background-color: #136625;
+  background-color: #00a123;
   border: none;
   width: 100%;
   border-radius: 25px !important;
@@ -219,7 +206,7 @@ body {
 }
 
 .img-fluid[alt*="Logo"] {
-  max-width: 120px;
+  /* max-width: 120px; */
   margin-bottom: 1rem;
 }
 
@@ -243,7 +230,7 @@ h4.text-success {
 
 /* Button More Styles */
 .btn-dark {
-  background-color: #000;
+  background-color: #a6922b;
   border: none;
   padding: 0.5rem 2rem;
   font-size: 0.9rem;
@@ -312,7 +299,7 @@ h4.text-success {
   }
   
   .img-fluid[alt*="Logo"] {
-    max-width: 100px;
+    max-width: 40vh;
   }
 }
 /* Tutorial Doa */
