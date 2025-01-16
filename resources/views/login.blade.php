@@ -2,7 +2,7 @@
 
 @section('title', 'Login - Road to Bhakti')
 
-@section('background', '{{ asset("images/login_image.avif") }}')
+@section('background', '{{ asset("images/login_image.png") }}')
 
 @section('content')
 <div class="container">
