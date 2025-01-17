@@ -1,4 +1,4 @@
-@extends('LayoutRTB.Tutorial')
+@extends('LayoutRTB.TutorialRTB')
 
 @section('content')
  
