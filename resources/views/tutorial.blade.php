@@ -20,7 +20,7 @@
 </div>
 
 <div class="container">
-  <div class="row">
+  <div class="row-tutorial">
     <!-- Card  -->
     <div class="col-md-3 mb-4">
       <div class="card">

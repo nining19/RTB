@@ -302,11 +302,9 @@ h4.text-success {
     max-width: 40vh;
   }
 }
+
+
 /* Tutorial Doa */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #e6e6e6;
-}
 
 /* Search Bar */
 .custom-search-bar {
@@ -369,20 +367,20 @@ body {
   padding: 20px;
 }
 
-.row {
+.row-tutorial {
   display: flex;
   gap: 20px;
 }
 
-.row:first-child {
+.rowrow-tutorial:first-child {
   flex: 1 1 50%;
   flex-direction: column;
 }
 
-.row:nth-child(2) {
+.rowrow-tutorial:nth-child(2) {
   flex: 1 1 50%;
   flex-direction: column;
-}
+} */
 
 .card {
   margin-bottom: 20px;
@@ -444,5 +442,4 @@ body {
   .card {
     flex: 0 0 calc(100% - 20px);
   }
-}
-
+} 

@@ -3,7 +3,12 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\TutorialController;
 
+// dashboarrd
+Route::get('/Road-to-bhakti', [DashboardController::class, 'index']);
+
+//login register
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
 Route::get('/register', [AuthController::class, 'showRegister'])->name('register');
@@ -13,6 +18,5 @@ Route::get('/dashboard', function () {
 })->name('dashboard')->middleware('auth');
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
-Route::get('/Road-to-bhakti', [DashboardController::class, 'index']);
-
-Route::get('/tutorial-banten', [DashboardController::class, 'index']);
+//tutorial
+Route::get('/tutorial-banten', [TutorialController::class, 'show']);

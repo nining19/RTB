@@ -2,16 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades;
 
-class DashboardController extends Controller
+class TutorialController extends Controller
 {
     public function show()
     {
-        // $viewData = [
-            // 'id' => $id
-        // ];
-
         return view('tutorial');
     }
 }
+
