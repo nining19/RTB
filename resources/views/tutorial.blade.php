@@ -1,4 +1,4 @@
-@extends('LayoutRTB.RTB')
+@extends('LayoutRTB.Tutorial')
 
 @section('content')
  
@@ -11,7 +11,6 @@
   </form>
 </div>
 
-<!-- Tutorial Section -->
 <div class="featured-banner">
   <img src="{{ asset('images/banten2.png') }}" alt="Canang Sari" class="banner-image">
   <div class="banner-overlay">
@@ -20,7 +19,11 @@
 </div>
 
 <div class="container">
+<<<<<<< HEAD
   <div class="row">
+=======
+  <div class="row-tutorial">
+>>>>>>> 5b338bea0fcb13bce167b28ad4d86f3be42a5c1e
     <!-- Card  -->
     <div class="col-md-3 mb-4">
       <div class="card">
