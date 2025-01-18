@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\TutorialController;
+use App\Http\Controllers\SearchController;
 
 // dashboarrd
 Route::get('/Road-to-bhakti', [DashboardController::class, 'index']);
@@ -20,3 +21,6 @@ Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 //tutorial
 Route::get('/tutorial-banten', [TutorialController::class, 'showTutorial']);
+
+
+Route::get('/search', [SearchController::class, 'index'])->name('search');

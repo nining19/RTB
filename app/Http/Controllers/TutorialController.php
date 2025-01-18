@@ -1,22 +1,14 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Item;
 
-use Illuminate\Support\Facades;
+use Illuminate\Http\Request;
 
 class TutorialController extends Controller
 {
     public function showTutorial()
-        {
-    $tutorials = [
-        (object) ['title' => 'Canang Sari', 'image' => 'banten1.png'],
-        (object) ['title' => 'Kwangen', 'image' => 'banten2.png'],
-        (object) ['title' => 'Daksina', 'image' => 'banten3.png'],
-        (object) ['title' => 'Canang User', 'image' => 'banten1.png']
-    ];
-
-    return view('tutorial', compact('tutorials'));
-        }
-
+    {
+        return view('tutorial');
+    }
 }
-
