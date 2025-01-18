@@ -19,4 +19,4 @@ Route::get('/dashboard', function () {
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 //tutorial
-Route::get('/tutorial-banten', [TutorialController::class, 'show']);
+Route::get('/tutorial-banten', [TutorialController::class, 'showTutorial']);

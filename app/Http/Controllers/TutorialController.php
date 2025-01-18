@@ -6,7 +6,7 @@ use Illuminate\Support\Facades;
 
 class TutorialController extends Controller
 {
-    public function index()
+    public function showTutorial()
         {
     $tutorials = [
         (object) ['title' => 'Canang Sari', 'image' => 'banten1.png'],
