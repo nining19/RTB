@@ -303,9 +303,17 @@ h4.text-success {
   }
 }
 
+<<<<<<< HEAD
 /* Gaya untuk kotak pencarian */
 .search-bar {
   max-width: 500px;
+=======
+
+/* css Tutorial Doa */
+
+/* Search Bar */
+.custom-search-bar {
+>>>>>>> 7f71583 (benerin css)
   margin: 20px auto;
   display: flex;
   align-items: center;
@@ -315,7 +323,38 @@ h4.text-success {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+<<<<<<< HEAD
 .search-bar input {
+=======
+.featured-banner .banner-title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Card Section */
+.container {
+  padding: 20px;
+}
+
+.row-tutorial {
+  display: flex;
+  gap: 20px;
+}
+
+.row-tutorial:first-child {
+  flex: 1 1 50%;
+  flex-direction: column;
+}
+
+.row-tutorial:nth-child(2) {
+  flex: 1 1 50%;
+  flex-direction: column;
+} 
+
+.card {
+  margin-bottom: 20px;
+>>>>>>> 7f71583 (benerin css)
   border: none;
   outline: none;
   flex-grow: 1;
