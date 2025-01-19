@@ -1,22 +1,23 @@
-@extends('LayoutRTB.TutorialRTB')
+@extends('LayoutRTB.RTB')
+
+@section('title', 'tutorial - Road to Bhakti')
 
 @section('content')
 
-<div class="custom-search-bar">
-    <form action="{{ route('search') }}" method="GET" class="d-flex align-items-center">
-        <input type="text" name="query" class="form-control" placeholder="Telusuri">
-        <button type="submit" class="btn btn-success">
-            <i class="bi bi-search"></i>
-        </button>
-    </form>
-</div>
-
-<div class="featured-banner">
-    <img src="{{ asset('images/banten2.png') }}" alt="Canang Sari" class="banner-image">
-    <div class="banner-overlay">
-        <h1 class="banner-title">CANANG SARI</h1>
+<br/>
+<br/>
+<section class="section mt-5 d-flex justify-content-center align-items-center" style="min-height: 75;">
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="banner-container position-relative">
+            <div class="featured-banner">
+                <img src="{{ asset('images/banten2.png') }}" alt="Canang Sari" class="banner-image">
+                <div class="banner-text text-center">
+                    <h1 class="banner-title">CANANG SARI</h1>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+</section>
 
 <div class="row-tutorial">
     <div class="row">
@@ -73,7 +74,7 @@
                 </div>
             </div>
         </div>
-
+        
     </div>
 </div>
 @endsection

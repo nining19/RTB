@@ -21,7 +21,7 @@ Route::get('/dashboard', function () {
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 //tutorial
-Route::get('/tutorial-banten', [TutorialController::class, 'showTutorial']);
+Route::get('/tutorial-banten', [TutorialController::class, 'showTutorial'])->name('tutorial.index');
 
 
 Route::get('/search', [SearchController::class, 'index'])->name('search');
