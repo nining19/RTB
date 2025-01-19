@@ -22,13 +22,13 @@
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="nav mx-auto gap-5">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Beranda</a>
+                        <a class="nav-link" href="/Road-to-bhakti/">Beranda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Tutorial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Doa</a>
+                        <a class="nav-link" href="/doa">Doa</a>
                     </li>
                 </ul>
             </div>

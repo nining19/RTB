@@ -5,9 +5,10 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\TutorialController;
 use App\Http\Controllers\SearchController;
+use App\Http\Controllers\DoaController;
 
-// dashboarrd
-Route::get('/Road-to-bhakti', [DashboardController::class, 'index']);
+
+Route::get('/Road-to-bhakti/', [DashboardController::class, 'index']);
 
 //login register
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
@@ -24,3 +25,4 @@ Route::get('/tutorial-banten', [TutorialController::class, 'showTutorial']);
 
 
 Route::get('/search', [SearchController::class, 'index'])->name('search');
+Route::get('/doa', [DoaController::class, 'index'])->name('doa.index');
