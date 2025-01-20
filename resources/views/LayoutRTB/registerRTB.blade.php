@@ -47,12 +47,12 @@
         h1 {
             font-family: 'Allura', cursive;
             font-size: 3.5rem;
-            color: #00611c;
+            color: #eeeeee;
             margin-bottom: 10px;
-            text-shadow: 
+            /* text-shadow: 
                 0 0 5px #c7fcd7, 
                 0 0 10px #72be89, 
-                0 0 15px #74b385;
+                0 0 15px #74b385; */
 
             }
 

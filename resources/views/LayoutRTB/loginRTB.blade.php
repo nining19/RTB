@@ -45,14 +45,15 @@
             }
 
         h1 {
-            font-family: 'Allura', cursive;
+            font-family: 'Allura', sans-serif;
             font-size: 3.5rem;
-            color: #00611c;
+            color: #eeefee;
             margin-bottom: 10px;
-            text-shadow: 
+            font-
+            /* text-shadow: 
                 0 0 5px #c7fcd7, 
                 0 0 10px #72be89, 
-                0 0 15px #74b385;
+                0 0 15px #74b385; */
             }
 
         h2 {
@@ -88,6 +89,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>Road To Bhakti</h1>
@@ -99,7 +101,6 @@
              <p>Belum daftar? <a href="{{ route('register') }}">Daftar</a></p>
              <button type="submit">Masuk</button>
         </form>
-       
     </div>
 </body>
 </html>
