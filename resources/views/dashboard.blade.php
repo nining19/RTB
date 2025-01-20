@@ -75,7 +75,7 @@
           <img src="{{ asset('images/banten1.png') }}" class="card-img-top" alt="Canang Sari">
           <div class="card-body text-center">
             <button class="btn btn-danger rounded-circle">▶</button>
-            <p class="mt-3">Canang Sari</p>
+            <p class="mt-1">Kwangen</p>
           </div>
         </div>
       </div>
@@ -84,7 +84,7 @@
           <img src="{{ asset('images/banten2.png') }}" class="card-img-top" alt="Kwangen">
           <div class="card-body text-center">
             <button class="btn btn-danger rounded-circle">▶</button>
-            <p class="mt-3">Kwangen</p>
+            <p class="mt-1">Canang Sari</p>
           </div>
         </div>
       </div>
@@ -93,16 +93,16 @@
           <img src="{{ asset('images/banten3.png') }}" class="card-img-top" alt="Daksina">
           <div class="card-body text-center">
             <button class="btn btn-danger rounded-circle">▶</button>
-            <p class="mt-3">Daksina</p>
+            <p class="mt-1">Daksina</p>
           </div>
         </div>
       </div>
       <div class="col-md-3 mb-4">
         <div class="card">
-          <img src="{{ asset('images/banten1.png') }}" class="card-img-top" alt="Canang User">
+          <img src="{{ asset('images/banten4.png') }}" class="card-img-top" alt="Canang User">
           <div class="card-body text-center">
             <button class="btn btn-danger rounded-circle">▶</button>
-            <p class="mt-3">Canang User</p>
+            <p class="mt-1">Pejati</p>
           </div>
         </div>
       </div>
