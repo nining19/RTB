@@ -16,7 +16,7 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand " href="#">Road To Bhakti</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="d-flex justify-content-end">
+            <div class="d-flex justify-content-end mx-5">
                 <a href="#" class="btn btn-outline-light">Masuk</a>
             </div>
         </div>

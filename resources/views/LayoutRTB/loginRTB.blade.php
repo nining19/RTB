@@ -7,9 +7,14 @@
     <title>Login - Road to Bhakti</title>
     
     <style>
+        .allura-regular {
+            font-family: "Allura", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }  
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'allura', sans-serif;
             background: url('{{ asset("images/login_image.png") }}') no-repeat center center/cover;
             background-size: cover;
             display: flex;
@@ -28,7 +33,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(255, 255, 255, 0.5); 
+            background: rgba(255, 255, 255, 0.126); 
             z-index: 1; 
             }
 
@@ -49,7 +54,7 @@
             font-size: 3.5rem;
             color: #eeefee;
             margin-bottom: 10px;
-            font-
+            font-weight: normal;
             /* text-shadow: 
                 0 0 5px #c7fcd7, 
                 0 0 10px #72be89, 
@@ -91,16 +96,7 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Road To Bhakti</h1>
-        <h2>Login</h2>
-        <form method="POST" action="{{ route('login') }}">
-            @csrf
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-             <p>Belum daftar? <a href="{{ route('register') }}">Daftar</a></p>
-             <button type="submit">Masuk</button>
-        </form>
-    </div>
+    @yield('content')
+  
 </body>
 </html>

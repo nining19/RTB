@@ -28,7 +28,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(255, 255, 255, 0.5); 
+            background: rgba(255, 255, 255, 0.133); 
             z-index: 1; 
             }
 
@@ -49,6 +49,7 @@
             font-size: 3.5rem;
             color: #eeeeee;
             margin-bottom: 10px;
+            font-weight: normal;
             /* text-shadow: 
                 0 0 5px #c7fcd7, 
                 0 0 10px #72be89, 
@@ -90,18 +91,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Road To Bhakti</h1>
-        <h2>Daftar</h2>
-        <form method="POST" action="{{ route('register') }}">
-            @csrf
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-             <p><a href="{{ route('login') }}">Sudah punya akun?</a></p>
-             
-             <button type="submit">Daftar</button>
-        </form>
+    @yield('content')
        
     </div>
 </body>
