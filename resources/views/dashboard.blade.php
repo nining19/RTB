@@ -1,7 +1,9 @@
 @extends('LayoutRTB.RTB')
 
 @section('content')
+<title>Beranda</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 <!-- section 1-->
 <div class="hero">
     <div class="hero-overlay"></div>
@@ -75,6 +77,7 @@
           <img src="{{ asset('images/banten1.png') }}" class="card-img-top" alt="Canang Sari">
           <div class="card-body text-center">
             <button class="btn btn-danger rounded-circle">▶</button>
+            <a href="play.blade.php">Kwangen</a>
             <p class="mt-1">Kwangen</p>
           </div>
         </div>
