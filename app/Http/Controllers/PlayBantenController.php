@@ -12,6 +12,6 @@ class PlayBantenController extends Controller
             // 'id' => $id
         // ];
 
-        return view('play1');
+        return view('play1cs');
     }
 }

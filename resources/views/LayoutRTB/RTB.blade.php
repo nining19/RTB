@@ -14,10 +14,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
+<style>
+    .navbar-doa {
+        background: linear-gradient(to right, #48ae4c, #017001);
+    }
+</style>
+
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top {{ request()->routeIs('doa.index') ? 'navbar-doa' : '' }}">
+        <div class="container" >
             <a class="navbar-brand " style="font-weight: 100" href="#">Road To Bhakti</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>

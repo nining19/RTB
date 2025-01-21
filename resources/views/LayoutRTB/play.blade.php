@@ -12,7 +12,7 @@
 
     <style>
         body{
-            background-color: rgb(236, 235, 235);
+            background-color: rgb(246, 242, 242);
             left: 0;
             right: 0;
         }
