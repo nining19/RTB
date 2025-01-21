@@ -40,9 +40,26 @@
                     </li>
                 </ul>
             </div>
-            <div class="d-flex justify-content-end mx-5">
+            {{-- <div class="d-flex justify-content-end mx-5">
                 <a href="/login" class="btn btn-outline-light">Masuk</a>
+
+            </div> --}}
+
+            <div class="d-flex justify-content-end mx-5">
+                @if (Auth::check())
+                    <a href="{{ route('logout') }}" 
+                       class="btn btn-outline-light" 
+                       onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                       Keluar
+                    </a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
+                @else
+                    <a href="{{ route('login') }}" class="btn btn-outline-light">Masuk</a>
+                @endif
             </div>
+            
         </div>
     </nav>
 </header>

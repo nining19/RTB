@@ -88,11 +88,32 @@
         a:hover {
             text-decoration: underline;
         }
+        .alert {
+            padding: 10px;
+            border: 1px solid green;
+            background-color: #d4edda;
+            color: #155724;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
     </style>
 </head>
 <body>
     @yield('content')
-     
+
+    @if (session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
     </div>
+@endif
+
+@if (session('error'))
+    <div class="alert alert-danger">
+        {{ session('error') }}
+    </div>
+@endif
+
+
 </body>
 </html>

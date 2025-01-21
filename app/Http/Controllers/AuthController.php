@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
-use App\Models\User;
 
 class AuthController extends Controller
 {
@@ -15,14 +14,26 @@ class AuthController extends Controller
     {
         return view('login'); 
     }
+
     public function login(Request $request): RedirectResponse
     {
-        $credentials = $request->only(['username', 'password']); 
 
+        $request->validate([
+            'username' => 'required',
+            'password' => 'required',
+        ], [
+            'username.required' => 'Username harus diisi.',
+            'password.required' => 'Password harus diisi.',
+        ]);
+
+
+        $credentials = $request->only(['username', 'password']); 
         if (Auth::attempt($credentials)) {
+
             return redirect()->route('dashboard'); 
         } else {
-            return back()->withErrors(['error' => 'Login gagal. Periksa kembali username dan password Anda.']); 
+
+            return back()->withErrors(['error' => 'Login gagal. Username atau password salah.']);
         }
     }
 
@@ -31,13 +42,21 @@ class AuthController extends Controller
         return view('register'); 
     }
 
-
     public function register(Request $request): RedirectResponse
     {
+
         $request->validate([
             'email' => 'required|email|unique:pengguna',
             'username' => 'required|unique:pengguna', 
             'password' => 'required|min:6',
+        ], [
+            'email.required' => 'Email harus diisi.',
+            'email.email' => 'Email tidak valid.',
+            'email.unique' => 'Email sudah digunakan.',
+            'username.required' => 'Username harus diisi.',
+            'username.unique' => 'Username sudah digunakan.',
+            'password.required' => 'Password harus diisi.',
+            'password.min' => 'Password harus minimal 6 karakter.',
         ]);
 
         Pengguna::create([

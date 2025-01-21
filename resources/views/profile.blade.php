@@ -37,30 +37,6 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Update</button>
                 </form>
-    
-                {{-- Form Statis cmn buat liat halaman aja --}}
-                {{-- <form method="POST" action="#" class="overflow-hidden">
-                    @csrf
-                    <div class="row pb-0">
-                        <div class="mb-3 col-6">
-                            <label for="name" class="form-label">Nama</label>
-                            <input type="text" name="name" id="name" class="form-control" value="" required>
-                        </div>
-                        <div class="mb-3 col-6">
-                            <label for="phone" class="form-label">No. Telepon</label>
-                            <input type="text" name="phone" id="phone" class="form-control" value="">
-                        </div>
-                        <div class="mb-3 col-6">
-                            <label for="address" class="form-label">Alamat</label>
-                            <input type="text" name="address" id="address" class="form-control" value="">
-                        </div>
-                        <div class="mb-3 hidden">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="hidden" name="email" id="email" class="form-control" value="" disabled>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary edit-button w-25">Edit</button>
-                </form> --}}
 
                 <div class="profile-email">
                     <h6 class="fs-5">My Email Address</h6>
