@@ -1,5 +1,5 @@
 body {
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
     left: 0;
     right: 0;
 }
@@ -101,7 +101,7 @@ body {
     width: 100%;
 }
 .row {
-    background-color: rgba(0, 0, 0, 0.05); /* Background lebih kecil */
+    /* background-color: rgba(0, 0, 0, 0.05); */ /* Background lebih kecil */
     padding: auto; /* Menyesuaikan padding agar tidak terlalu besar */
     max-width: 100%; /* Membatasi ukuran row */
     margin: 40px; /* Menengahkan row */

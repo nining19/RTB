@@ -175,7 +175,7 @@
       <p class="text">Terhubung setiap hari<br>dan setiap waktu</p>
     </div>
     <div class="col-md-4 text-center">
-      <h4 class="text-success fw-bold">Berhubungan Dengan Kami</h4>
+      <h4 class="text-success fs-2 fw-bold">Berhubungan <br> Dengan Kami</h4>
       <ul class="social-media list-unstyled text-center mt-3">
         <li>
           <span class="icon"><i class="fa-brands fa-instagram"></i></span>
@@ -192,10 +192,10 @@
       </ul>
     </div>
   </div>
-  <div class="row bg-dark py-2">
-    <div class="col-12 text-center">
-      <p class="text-white mb-0">© 2025 Road To Bhakti</p>
-    </div>
+</div>
+<div class="row bg-dark m-0 py-2">
+  <div class="col-12 text-center">
+    <p class="text-white fs-6 mb-0">© 2025 Road To Bhakti</p>
   </div>
 </div>
 @endsection
