@@ -11,7 +11,14 @@ return new class extends Migration
      */
     public function up()
     {
-       
+        Schema::create('sessions', function (Blueprint $table) {
+            $table->string('id')->primary(); // Session ID
+            $table->foreignId('user_id')->nullable()->index(); // Foreign key untuk pengguna
+            $table->string('ip_address', 45)->nullable(); // IP pengguna
+            $table->text('user_agent')->nullable(); // Informasi browser pengguna
+            $table->text('payload'); // Data sesi
+            $table->integer('last_activity')->index(); // Waktu aktivitas terakhir
+        });
 
         // Tabel Pengguna
         Schema::create('pengguna', function (Blueprint $table) {
