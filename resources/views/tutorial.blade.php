@@ -1,4 +1,4 @@
-@extends('LayoutRTB.TutorialRTB')
+@extends('LayoutRTB.RTB')
 
 {{-- @section('title', 'tutorial - Road to Bhakti') --}}
 
@@ -7,12 +7,15 @@
 
 <div class="king container-fluid px-0">
     <header class="Hero text-white text-center p-4">
-        <input type="text" class="search-bar form-control" placeholder="Search...">
+        <br>
+        <br>
+        <br>
+        <input type="text" class="search-bar form-control" style="background-color: #ffff; opacity: 80%;" placeholder="Search...">
     </header>
     <div class="section-1 container-fluid">
       <div class="row mb-3 ">
             <div class="col-4 px-0">
-             <a href="/play-banten"><img href="{{asset('public/images/banten2.png')}}" alt="Canang" class="img-box image"></a>
+             <a href="/play-banten"><img src="{{asset('images/banten2.png')}}" alt="Canang" class="img-box image"></a>
             </div>
             <div class="col-6  justify-content-end">
                 <h1>lorem</h1>

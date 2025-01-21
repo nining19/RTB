@@ -8,9 +8,10 @@
 <div class="hero">
     <div class="hero-overlay"></div>
        <div class="hero-content">
+
          <h1 class="display-4 fw-bold">ROAD TO BHAKTI</h1>
          <p class="lead">Terhubung setiap hari dan setiap waktu</p>
-         <div class="search-bar">
+         <div class="search-bar-home">
            <input type="text" placeholder="Telusuri" />
            <button type="submit">
              <i class="bi bi-search"></i>

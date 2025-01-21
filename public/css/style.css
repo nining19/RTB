@@ -201,7 +201,7 @@ body{
 }
 
 /* Gaya untuk kotak pencarian */
-.search-bar {
+.search-bar-home {
   max-width: 500px;
   margin: 20px auto;
   display: flex;
@@ -212,7 +212,7 @@ body{
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.search-bar input {
+.search-bar-home input {
   border: none;
   outline: none;
   flex-grow: 1;
@@ -222,7 +222,7 @@ body{
   padding: 5px 10px;
 }
 
-.search-bar button {
+.search-bar-home button {
   border: none;
   background: transparent;
   color: white;

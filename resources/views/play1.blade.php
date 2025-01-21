@@ -75,7 +75,7 @@
         <iframe 
         {{-- width="800" 
         height="450"  --}}
-        width="1000" 
+        width="80%" 
         height="563" 
           src="https://www.youtube.com/embed/dMMKA1lkRBM" 
           title="YouTube video player" 
@@ -97,19 +97,19 @@
     </div> --}}
 
     
-      <div class="title">
-        <h1>Cara membuat Canang Sari Bulan</h1>
-        <span class="heart">&#10084;</span>
+      <div class="title" style="display: flex; width: 83.2%; font-weight: 700; justify-content: space-between">
+        <span style="font-size: 32px; float: left; text-align: left">Cara membuat Canang Sari Bulan</span>
+        <span class="heart" style="float: right; font-size:48px">&#10084;</span>
       </div>
-    
+    <hr style="width: 80%; margin: 0 auto;">
 
     <div class="container p-5">
       <div class="shadow card rounded-3 p-5" >
-          <div class="row g-0">
+          <div class="">
            {{-- <div class="col-md-4">
               {{-- <img src="{{asset('images/LogoRTB.png')}}" class="img-fluid rounded-start " alt="Logo Road to Bhakti"> 
            </div> --}}
-           <div class="col-md-9">
+           <div class="">
               <div class="card-body">
                 <p class="card-text fs-4 text-justify">
                 Proyek Road to Bhakti bertujuan untuk mengembangkan sistem yang menyediakan fitur tutorial pembuatan banten serta katalog doa persembahyangan dan doa sehari-hari, untuk membantu serta mendukung masyarakat umat Agama Hindu untuk memahami dan melestarikan budaya sekaligus memperkuat keterhubungan umat dengan Tuhannya, sebagai bentuk implementasi dari Tri Hitakarana, yaitu "Parahyangan".
