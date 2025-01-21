@@ -3,6 +3,7 @@
 @section('title', 'Doa - Road to Bhakti')
 
 @section('content')
+<title>DOA</title>
 <br/>
 <br/>
 <section class="section mt-5">
