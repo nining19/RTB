@@ -92,7 +92,7 @@
 </head>
 <body>
     @yield('content')
-       
+     
     </div>
 </body>
 </html>

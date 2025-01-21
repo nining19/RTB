@@ -111,7 +111,7 @@
       </div>
     </div>
     <div class="text-center">
-      <a href="#" class="btn btn-success">Lebih banyak >></a>
+      <a href="/tutorial-banten" class="btn btn-success">Lebih banyak >></a>
     </div>
   </div>
 </div>
@@ -159,7 +159,7 @@
       </div>
     </div>
     <div class="text-center mt-3">
-      <button class="btn btn-dark">Lebih banyak >></button>
+      <a href="/doa" class="btn btn-success">Lebih banyak >></a>
     </div>
   </div>
 </div>
