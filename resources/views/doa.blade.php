@@ -6,6 +6,8 @@
 <title>DOA</title>
 <br/>
 <br/>
+<br/>
+<br/>
 <section class="section mt-5">
     <h2 style="text-align: center">Panca Sembah</h2>
     <div class="button-list">

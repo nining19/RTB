@@ -97,7 +97,7 @@
 
 <body>
     @yield('content')
-    @if (session('success'))
+    {{-- @if (session('success'))
     <div class="alert alert-success">
         {{ session('success') }}
     </div>
@@ -107,6 +107,6 @@
         <div class="alert alert-danger">
             {{ session('error') }}
         </div>
-    @endif
+    @endif --}}
 </body>
 </html>

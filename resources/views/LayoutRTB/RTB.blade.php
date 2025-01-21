@@ -45,10 +45,12 @@
 
             </div> --}}
 
-            <div class="d-flex justify-content-end mx-5">
+            <div class="d-flex justify-content-end  mx-5">
                 @if (Auth::check())
+                    <a class="text-white fs-5 m-4" href="/profile">{{ Auth::user()->username }}</p>
                     <a href="{{ route('logout') }}" 
-                       class="btn btn-outline-light" 
+                       class="btn btn-outline-light m-4" 
+                       style="height: 40px"
                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                        Keluar
                     </a>

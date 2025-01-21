@@ -29,9 +29,9 @@ Route::get('/tutorial-banten', [TutorialController::class, 'showTutorial'])->nam
 Route::get('/doa', [DoaController::class, 'index'])->name('doa.index');
 
 //Profil
-Route::middleware(['auth'])->group(function () {
-    // Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
-    // Route::post('/profile/update', [ProfileController::class, 'update'])->name('profile.update');
+Route::middleware(['web'])->group(function () {
+    Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
+    Route::post('/profile/update', [ProfileController::class, 'update'])->name('profile.update');
 });
 
 //Play Banten

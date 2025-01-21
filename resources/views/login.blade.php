@@ -19,7 +19,7 @@
     <p style="font-family: Arial, Helvetica, sans-serif">Belum daftar? <a href="{{ route('register') }}">Daftar</a></p>
     
     @if (session('success'))
-    <div class="alert alert-success">
+    <div class="alert alert-success" >
         {{ session('success') }}
     </div>
 @endif
