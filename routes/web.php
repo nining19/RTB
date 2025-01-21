@@ -35,4 +35,4 @@ Route::middleware(['auth'])->group(function () {
 });
 
 //Play Banten
-Route::get('/play-banten', [PlayBantenController::class, 'showPlay']);
+Route::get('/play/{bladeName}', [PlayBantenController::class, 'showPlay']);
