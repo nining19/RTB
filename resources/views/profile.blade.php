@@ -11,8 +11,8 @@
         <img src="{{ asset('images/profile.png') }}" alt="Profile Image">
 
         <div class="profile-data">
-            <h3 class="mb-0">Diva</h3>
-            <p class="text-secondary mb-0">alexarawles@gmail.com</p>
+            <h3 class="mb-0">{{ Auth::user()->username }}</h3>
+            <p class="text-secondary mb-0">{{ Auth::user()->email }}</p>
         </div>
     </div>
     <div class="profile-container">
@@ -21,19 +21,19 @@
                     @csrf
                     <div class="mb-3">
                         <label for="name" class="form-label">Nama</label>
-                        <input type="text" name="name" id="name" class="form-control" value="{{ $user->name }}" required>
+                        <input type="text" name="name" id="name" class="form-control" value="{{ $user }}" required>
                     </div>
                     <div class="mb-3">
                         <label for="phone" class="form-label">No. Telepon</label>
-                        <input type="text" name="phone" id="phone" class="form-control" value="{{ $user->phone }}">
+                        <input type="text" name="phone" id="phone" class="form-control" value="{{ $user }}">
                     </div>
                     <div class="mb-3">
                         <label for="address" class="form-label">Alamat</label>
-                        <input type="text" name="address" id="address" class="form-control" value="{{ $user->address }}">
+                        <input type="text" name="address" id="address" class="form-control" value="{{ $user }}">
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" name="email" id="email" class="form-control" value="{{ $user->email }}" disabled>
+                        <input type="email" name="email" id="email" class="form-control" value="{{ Auth::user()->email }}" disabled>
                     </div>
                     <button type="submit" class="btn btn-primary">Update</button>
                 </form>
@@ -47,7 +47,7 @@
                         </div>
 
                         <div>
-                            <p class="mb-0">alexarawles@gmail.com</p>
+                            <p class="mb-0">{{ Auth::user()->email }}</p>
                             <p class="text-secondary mb-0">1 Month Ago</p>
                         </div>
                     </div>
