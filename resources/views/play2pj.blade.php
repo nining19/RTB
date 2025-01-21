@@ -73,11 +73,9 @@
     {{-- VID --}}
     <div class="d-flex justify-content-center">
         <iframe 
-        {{-- width="800" 
-        height="450"  --}}
         width="80%" 
         height="563" 
-          src="https://www.youtube.com/embed/dMMKA1lkRBM" 
+          src="https://www.youtube.com/embed/IaRVXDkZq1Y?si=yHFzh83RBKfVTu_t"
           title="YouTube video player" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           allowfullscreen>
@@ -85,20 +83,9 @@
         </iframe>
     </div>
 
-    {{-- DESKRIPSI --}}
-    {{-- <div class="title">
-      <h1>Cara membuat Canang Sari Bulan</h1>
-      <span class="heart">&#10084;</span>
-    
-      <div class="content">
-        <p>Canang Sari adalah persembahan harian umat Hindu Bali yang dibuat dari daun kelapa muda (janur) berbentuk wadah kecil. Di dalamnya berisi bunga dengan empat warna yang memiliki makna berbeda: putih (timur/lswara), merah (selatan/Brahma), kuning (barat/Mahadewa), dan biru/ungu (utara/Wisnu).</p>
-        <p>Dilengkapi dengan porosan (sirih, kapur, pinang) sebagai simbol Tri Murti. Canang Sari merupakan wujud bhakti dan terima kasih kepada Sang Hyang Widhi Wasa</p>
-      </div>
-    </div> --}}
-
     
       <div class="title" style="display: flex; width: 83.2%; font-weight: 700; justify-content: space-between">
-        <span style="font-size: 32px; float: left; text-align: left">Cara membuat Canang Sari Bulan</span>
+        <span style="font-size: 32px; float: left; text-align: left">Membuat Pejati Sederhana | Lengkap dengan Penjelasan</span>
         <span class="heart" style="float: right; font-size:48px">&#10084;</span>
       </div>
     <hr style="width: 80%; margin: 0 auto;">
@@ -106,23 +93,17 @@
     <div class="container p-5">
       <div class="shadow card rounded-3 p-5" >
           <div class="">
-           {{-- <div class="col-md-4">
-              {{-- <img src="{{asset('images/LogoRTB.png')}}" class="img-fluid rounded-start " alt="Logo Road to Bhakti"> 
-           </div> --}}
            <div class="">
               <div class="card-body">
                 <p class="card-text fs-4 text-justify">
-                Proyek Road to Bhakti bertujuan untuk mengembangkan sistem yang menyediakan fitur tutorial pembuatan banten serta katalog doa persembahyangan dan doa sehari-hari, untuk membantu serta mendukung masyarakat umat Agama Hindu untuk memahami dan melestarikan budaya sekaligus memperkuat keterhubungan umat dengan Tuhannya, sebagai bentuk implementasi dari Tri Hitakarana, yaitu "Parahyangan".
+                Banten Pejati adalah sesaji dalam agama Hindu yang biasanya digunakan dalam upacara pemujaan di Bali. Banten ini terdiri dari berbagai bahan seperti bunga, buah, dan dupa, yang disusun dengan rapi dalam wadah kecil. Tujuan pemberian Banten Pejati adalah untuk menghormati Tuhan, memohon berkah, serta menjaga keharmonisan hubungan manusia dengan alam dan sesama.  
               </p>
               </div>
            </div>
           </div>
       </div>
     </div>
-
-
-
-
+    
 </body>
 
 @endsection
