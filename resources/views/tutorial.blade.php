@@ -1,6 +1,6 @@
 @extends('LayoutRTB.TutorialRTB')
 
-@section('title', 'tutorial - Road to Bhakti')
+{{-- @section('title', 'tutorial - Road to Bhakti') --}}
 
 @section('content')
 <title>Tutorial</title>
@@ -12,7 +12,7 @@
     <div class="section-1 container-fluid">
       <div class="row mb-3 ">
             <div class="col-4 px-0">
-             <a href="#"><img href="{{asset('public/images/banten2.png')}}" alt="Canang" class="img-box image"></a>
+             <a href="/play-banten"><img href="{{asset('public/images/banten2.png')}}" alt="Canang" class="img-box image"></a>
             </div>
             <div class="col-6  justify-content-end">
                 <h1>lorem</h1>

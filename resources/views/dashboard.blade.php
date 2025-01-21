@@ -76,8 +76,7 @@
         <div class="card">
           <img src="{{ asset('images/banten1.png') }}" class="card-img-top" alt="Canang Sari">
           <div class="card-body text-center">
-            <button class="btn btn-danger rounded-circle">▶</button>
-            <a href="play.blade.php">Kwangen</a>
+            <a href="/play-banten"><button class="btn btn-danger rounded-circle">▶</button></a>
             <p class="mt-1">Kwangen</p>
           </div>
         </div>
