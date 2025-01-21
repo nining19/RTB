@@ -11,7 +11,15 @@ return new class extends Migration
      */
     public function up()
     {
-        // Tabel Pengguna
+        Schema::create('sessions', function (Blueprint $table) {
+            $table->string('id')->primary(); // Session ID
+            $table->foreignId('user_id')->nullable()->index(); // Foreign key untuk pengguna
+            $table->string('ip_address', 45)->nullable(); // IP pengguna
+            $table->text('user_agent')->nullable(); // Informasi browser pengguna
+            $table->text('payload'); // Data sesi
+            $table->integer('last_activity')->index(); // Waktu aktivitas terakhir
+        });
+        
             // Tabel Pengguna
             Schema::create('pengguna', function (Blueprint $table) {
                 $table->id('id_pengguna'); // Primary key
@@ -160,5 +168,6 @@ return new class extends Migration
         Schema::dropIfExists('kategori_doa');
         Schema::dropIfExists('biodata_pengguna');
         Schema::dropIfExists('pengguna');
+        Schema::dropIfExists('sessions');
     }
 };
