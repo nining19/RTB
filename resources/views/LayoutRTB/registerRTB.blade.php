@@ -59,7 +59,7 @@
 
         h2 {
             font-size: 1.6rem;
-            color: #daffe5;
+            color: #ffffff;
             margin-bottom: 10px;
         }
         input {
