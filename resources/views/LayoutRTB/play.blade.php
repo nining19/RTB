@@ -81,7 +81,7 @@
                     </ul>
                 </div>
                 <div class="d-flex justify-content-end mx-5">
-                    <a href="#" class="btn btn-outline-light">Masuk</a>
+                    <a href="/login" class="btn btn-outline-light">Masuk</a>
                 </div>
             </div>
         </nav>

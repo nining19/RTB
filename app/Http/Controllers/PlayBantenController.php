@@ -2,16 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 class PlayBantenController extends Controller
 {
-    public function showPlay()
+    public function showPlay($bladeName)
     {
-        // $viewData = [
-            // 'id' => $id
-        // ];
-
-        return view('play1cs');
+        
+        if (view()->exists($bladeName)) {
+            return view($bladeName);
+        }
     }
 }

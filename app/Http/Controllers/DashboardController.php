@@ -13,5 +13,13 @@ class DashboardController extends Controller
         // ];
 
         return view('dashboard');
+        
+    }
+    public function showPlay($bladeName)
+    {
+        
+        if (view()->exists($bladeName)) {
+            return view($bladeName);
+        }
     }
 }

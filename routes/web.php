@@ -6,6 +6,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\TutorialController;
 use App\Http\Controllers\DoaController;
 use App\Http\Controllers\PlayBantenController;
+use App\Http\Controllers\ProfileController;
 
 
 Route::get('/Road-to-bhakti/', [DashboardController::class, 'index']);
@@ -34,4 +35,5 @@ Route::middleware(['auth'])->group(function () {
 });
 
 //Play Banten
-Route::get('/play-banten', [PlayBantenController::class, 'showPlay']);
+Route::get('/play/{bladeName}', [PlayBantenController::class, 'showPlay']);
+Route::get('/play/{bladeName}', [DashboardController::class, 'showPlay']);

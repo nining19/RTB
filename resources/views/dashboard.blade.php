@@ -77,7 +77,7 @@
         <div class="card">
           <img src="{{ asset('images/banten1.png') }}" class="card-img-top" alt="Canang Sari">
           <div class="card-body text-center">
-            <a href="/play-banten"><button class="btn btn-danger rounded-circle">▶</button></a>
+            <a href="{{ url('/play/play3kw') }}"><button class="btn btn-danger rounded-circle">▶</button></a>
             <p class="mt-1">Kwangen</p>
           </div>
         </div>
@@ -86,7 +86,7 @@
         <div class="card">
           <img src="{{ asset('images/banten2.png') }}" class="card-img-top" alt="Kwangen">
           <div class="card-body text-center">
-            <button class="btn btn-danger rounded-circle">▶</button>
+            <a href="{{ url('/play/play1cs') }}"><button class="btn btn-danger rounded-circle">▶</button></a>
             <p class="mt-1">Canang Sari</p>
           </div>
         </div>
@@ -95,7 +95,7 @@
         <div class="card">
           <img src="{{ asset('images/banten3.png') }}" class="card-img-top" alt="Daksina">
           <div class="card-body text-center">
-            <button class="btn btn-danger rounded-circle">▶</button>
+            <a href="{{ url('/play/play4dk') }}"><button class="btn btn-danger rounded-circle">▶</button></a>
             <p class="mt-1">Daksina</p>
           </div>
         </div>
@@ -104,7 +104,7 @@
         <div class="card">
           <img src="{{ asset('images/banten4.png') }}" class="card-img-top" alt="Canang User">
           <div class="card-body text-center">
-            <button class="btn btn-danger rounded-circle">▶</button>
+            <a href="{{ url('/play/play2pj') }}"><button class="btn btn-danger rounded-circle">▶</button></a>
             <p class="mt-1">Pejati</p>
           </div>
         </div>
@@ -129,7 +129,7 @@
         <div class="card">
           <div class="card-body text-center">
             <h5 class="card-title text-success">DOA SEBELUM TIDUR</h5>
-            <button class="btn btn-success rounded-pill w-100">Lihat Detail</button>
+            <a href="/doa"><button class="btn btn-success rounded-pill w-100">Lihat Detail</button></a>
           </div>
         </div>
       </div>
@@ -137,7 +137,7 @@
         <div class="card">
           <div class="card-body text-center">
             <h5 class="card-title text-success">DOA SEBELUM MAKAN</h5>
-            <button class="btn btn-success rounded-pill w-100">Lihat Detail</button>
+            <a href="/doa"><button class="btn btn-success rounded-pill w-100">Lihat Detail</button></a>
           </div>
         </div>
       </div>
@@ -145,7 +145,7 @@
         <div class="card">
           <div class="card-body text-center">
             <h5 class="card-title text-success">SEMBAH PUYUNG</h5>
-            <button class="btn btn-success rounded-pill w-100">Lihat Detail</button>
+            <a href="/doa"><button class="btn btn-success rounded-pill w-100">Lihat Detail</button></a>
           </div>
         </div>
       </div>
@@ -153,7 +153,7 @@
         <div class="card">
           <div class="card-body text-center">
             <h5 class="card-title text-success">DOA KELUAR RUMAH</h5>
-            <button class="btn btn-success rounded-pill w-100">Lihat Detail</button>
+            <a href="/doa"><button class="btn btn-success rounded-pill w-100">Lihat Detail</button></a>
           </div>
         </div>
       </div>
@@ -175,7 +175,7 @@
       <p class="text">Terhubung setiap hari<br>dan setiap waktu</p>
     </div>
     <div class="col-md-4 text-center">
-      <h4 class="text-success fw-bold">Berhubungan Dengan Kami</h4>
+      <h4 class="text-success fs-2 fw-bold">Berhubungan <br> Dengan Kami</h4>
       <ul class="social-media list-unstyled text-center mt-3">
         <li>
           <span class="icon"><i class="fa-brands fa-instagram"></i></span>
@@ -192,10 +192,10 @@
       </ul>
     </div>
   </div>
-  <div class="row bg-dark py-2">
-    <div class="col-12 text-center">
-      <p class="text-white mb-0">© 2025 Road To Bhakti</p>
-    </div>
+</div>
+<div class="row bg-dark m-0 py-2">
+  <div class="col-12 text-center">
+    <p class="text-white fs-6 mb-0">© 2025 Road To Bhakti</p>
   </div>
 </div>
 @endsection
