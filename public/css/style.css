@@ -200,106 +200,71 @@ body{
   margin-bottom: 1.2rem;
 }
 
-/* Footer Refinements */
-.container-fluid .row.py-4 {
-  padding: 3rem 0;
-}
-
-.img-fluid[alt*="Logo"] {
-  /* max-width: 120px; */
-  margin-bottom: 1rem;
-}
-
-h3.text-success {
-  font-family: "Allura", cursive;
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.text-muted {
-  font-size: 0.9rem;
-  line-height: 1.6;
-  text-align: center;
-}
-
-h4.text-success {
-  font-size: 1.5rem;
-  line-height: 1.4;
-  text-align: center;
-}
-
-/* Button More Styles */
-.btn-dark {
-  background-color: #a6922b;
-  border: none;
-  padding: 0.5rem 2rem;
-  font-size: 0.9rem;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.btn-dark:hover {
-  opacity: 0.9;
-}
-
-/* Copyright Section */
-.row.bg-dark {
-  background-color: #000 !important;
-  padding: 1rem 0;
-}
-
-.row.bg-dark p {
-  font-size: 0.8rem;
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  opacity: 0.9;
-}
-
-/* Social Media Section */
-.social-media {
-  margin-top: 15px;
-}
-
-.social-media li {
+/* Gaya untuk kotak pencarian */
+.search-bar {
+  max-width: 500px;
+  margin: 20px auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50px;
+  padding: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.social-media .icon {
-  font-size: 1.5rem;
-  color: #000;
-  margin-right: 10px;
+.search-bar input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
 }
 
-.social-media .text {
-  font-size: 1rem;
-  color: #000;
+.search-bar button {
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .container-fluid {
-    padding: 2rem 1rem;
-  }
-  
-  .card {
-    margin-bottom: 1.5rem;
-  }
-  
-  h2, .text-white {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-  }
-  
-  h3.text-success {
-    font-size: 2rem;
-  }
-  
-  .img-fluid[alt*="Logo"] {
-    max-width: 40vh;
-  }
+/* Container untuk doa */
+.container-doa {
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  color: #175e28;
+  font-size: 24px;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+}
+
+.button-list button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #175e28;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button-list button:hover {
+  background-color: #1a7033;
+  transform: scale(1.02);
+}
+
+    
