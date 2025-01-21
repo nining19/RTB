@@ -4,7 +4,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\TutorialController;
-use App\Http\Controllers\SearchController;
 use App\Http\Controllers\DoaController;
 use App\Http\Controllers\PlayBantenController;
 
@@ -25,13 +24,13 @@ Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 Route::get('/tutorial-banten', [TutorialController::class, 'showTutorial'])->name('tutorial.index');
 
 //DOA
-Route::get('/search', [SearchController::class, 'index'])->name('search');
+// Route::get('/search', [SearchController::class, 'index'])->name('search');
 Route::get('/doa', [DoaController::class, 'index'])->name('doa.index');
 
 //Profil
 Route::middleware(['auth'])->group(function () {
-    Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
-    Route::post('/profile/update', [ProfileController::class, 'update'])->name('profile.update');
+    // Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
+    // Route::post('/profile/update', [ProfileController::class, 'update'])->name('profile.update');
 });
 
 //Play Banten
