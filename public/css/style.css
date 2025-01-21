@@ -249,9 +249,9 @@ body{
 
 .button-list button {
   display: block;
-  width: 100%;
+  width: 80%;
   padding: 12px;
-  margin: 8px 0;
+  margin: 8px auto;
   background-color: #175e28;
   color: white;
   border: none;

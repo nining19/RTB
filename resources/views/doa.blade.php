@@ -7,7 +7,7 @@
 <br/>
 <br/>
 <section class="section mt-5">
-    <h2>Panca Sembah</h2>
+    <h2 style="text-align: center">Panca Sembah</h2>
     <div class="button-list">
         <button onclick="showDetail('Sembah Puyung (Pembuka)', 'Om Atma Tattwatma Suddhamam Swaha', 'Om, jiwa ini adalah esensi dari Yang Mahasuci. Semoga disucikan. Svaha.', 'sembah_puyung.mp3')">Sembah Puyung</button>
         <button onclick="showDetail('Sembah Pertama (Surya)', 'Om Adityasyaparam Jyoti, Rakta Teja Namo Stute Sweta Pankaja Madyasthe Bhaskarya Namo Stute', 'Om, kepada cahaya agung Aditya (Dewa Surya), Yang memiliki sinar merah yang penuh kemuliaan, aku menghormati-Mu. Yang berada di tengah-tengah teratai putih, Kepada Bhaskara (Dewa Matahari), aku memberikan hormat.', 'sembah_pertama.mp3')">Sembah Pertama (Surya)</button>
@@ -20,7 +20,7 @@
 </section>
 
 <section class="section">
-    <h2>Doa Sehari-hari</h2>
+    <h2 style="text-align: center">Doa Sehari-hari</h2>
     <div class="button-list">
         <button onclick="showDetail('Doa Bangun Tidur', 'Om Jagrasca Prabhata kalasca ya Namo Namah svaha Om utedanim Bhagawantah syamota Prapitwa uta mandhye ahnam utodita maghawanta suryasya wayam dewanam sumantau svama', 'Om, kepada pagi dan siang yang penuh kesadaran, kami mengucapkan hormat. Terimalah persembahan ini, Svaha. Om, semoga kita menjadi diberkahi saat ini. Baik ketika kita telah mencapai puncak hari, di tengah hari, atau saat matahari terbit, semoga kita selalu disertai oleh para dewa dan kebajikan mereka.', 'doa_bangun_tidur.mp3')">Doa Bangun Tidur</button>
         <button onclick="showDetail('Doa Sebelum Mandi', 'Om Apah Punantu Prithivim Prithivi Putu Mam Punantu, Antariksham Punatu Mam.', 'Om, semoga air ini menyucikan bumi, dan bumi menyucikan diriku. Semoga udara juga menyucikan diriku.', 'doa_sebelum_mandi.mp3')">Doa Sebelum Mandi</button>
