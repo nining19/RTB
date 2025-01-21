@@ -17,7 +17,7 @@
     </div>
     <div class="profile-container">
                 {{-- Form Dinamis yg nanti di pake kalo udah ada database --}}
-                {{-- <form method="POST" action="{{ route('profile.update') }}">
+                <form method="POST" action="{{ route('profile.update') }}">
                     @csrf
                     <div class="mb-3">
                         <label for="name" class="form-label">Nama</label>
@@ -36,10 +36,10 @@
                         <input type="email" name="email" id="email" class="form-control" value="{{ $user->email }}" disabled>
                     </div>
                     <button type="submit" class="btn btn-primary">Update</button>
-                </form> --}}
+                </form>
     
                 {{-- Form Statis cmn buat liat halaman aja --}}
-                <form method="POST" action="#" class="overflow-hidden">
+                {{-- <form method="POST" action="#" class="overflow-hidden">
                     @csrf
                     <div class="row pb-0">
                         <div class="mb-3 col-6">
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary edit-button w-25">Edit</button>
-                </form>
+                </form> --}}
 
                 <div class="profile-email">
                     <h6 class="fs-5">My Email Address</h6>

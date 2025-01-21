@@ -30,8 +30,8 @@ Route::get('/search', [SearchController::class, 'index'])->name('search');
 Route::get('/doa', [DoaController::class, 'index'])->name('doa.index');
 
 //Profil
-Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
 Route::middleware(['auth'])->group(function () {
+    Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
     Route::post('/profile/update', [ProfileController::class, 'update'])->name('profile.update');
 });
 
